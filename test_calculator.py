@@ -21,3 +21,10 @@ def test_multiply():
     assert multiply(5, 5) == 25
     assert multiply(10, 10) == 100
     assert multiply(50, 50) == 2500
+
+def test_divide():
+    assert divide(4, 2) == 2
+    assert divide(10, 2) == 5
+    assert divide(50, 5) == 10
+    assert divide(100, 2) == 50
+    assert divide(90, 3) == 30
